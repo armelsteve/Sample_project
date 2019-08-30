@@ -1,6 +1,9 @@
 def name():
-    nam = input("Enter a name: ")
+    nom = input("Enter names: ")
     my_list = []
-    list1 = my_list.append(nam)
+    my_list.append(nom)
+    print(my_list)
+    print(type(my_list))
+    print(len(my_list))
 
 name()
