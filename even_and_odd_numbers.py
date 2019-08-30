@@ -1,6 +1,6 @@
 #This checks if a number is even or odd.
 
-for i in range(1, 50):
+for i in range(1, 100):
     if i % 2 == 0:
         print(f"{i} is even number")
     if i % 2 == 1:
